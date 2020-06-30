@@ -49,4 +49,19 @@
             </div>
         </div>
     </section>
+    <section class="companies">
+        <div class="container">
+            <h3>I nostri studenti sono stati assunti da:</h3>
+            <div class="companies-wrapper-top">
+                <img src="https://www.boolean.careers/images/companies/facileit.png" alt="">
+                <img src="https://www.boolean.careers/images/companies/oneday.png" alt="">
+                <img src="https://www.boolean.careers/images/companies/prima.png" alt="">
+            </div>
+            <div class="companies-wrapper-bottom">
+                <img src="https://www.boolean.careers/images/companies/fabbrica-digitale-big.png" alt="">
+                <img src="https://www.boolean.careers/images/companies/nephila.png" alt="">
+                <img src="https://www.boolean.careers/images/companies/rds.png" alt="">
+            </div>
+        </div>    
+    </section>
 @endsection

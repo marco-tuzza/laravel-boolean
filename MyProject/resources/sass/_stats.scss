@@ -1,11 +1,28 @@
 .stats {
-    height: 200px;
     width: 100%;
     background-color: $blue-boolean;
     .container{
         display: flex;
+        justify-content: space-between;
         .stats-wrapper {
-           color: white; 
+            width: 25%;
+            color: white;
+            margin: 50px 0px;
+           .stats-title {
+               font-size: 50px;
+               text-align: center;
+               h3 {
+                   font-weight: normal;
+               }
+           } 
+           .stats-text {
+               font-size: 19px;
+               text-align: center;
+               font-weight: lighter;
+               p {
+                   line-height: 25px;
+               }
+           }
         }
     }
 }

@@ -1,0 +1,23 @@
+.companies {
+    .container {
+        margin-bottom: 20px;
+        h3 {
+            color: #8e8e8e;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+        div {
+            &.companies-wrapper-top {
+                display: flex;
+            }
+            &.companies-wrapper-bottom {
+                display: flex;
+                justify-content: flex-end; 
+            }
+            img {
+               max-width: 250px; 
+               margin: 0px 40px;
+            }
+        }
+    }
+}

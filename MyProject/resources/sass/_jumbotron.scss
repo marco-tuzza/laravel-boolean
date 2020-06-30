@@ -1,43 +1,46 @@
-.jumbotron-wrapper {
-    height: 500px;
-    display: flex;
-    align-items: center;
-    .jumbotron-left {
-        width: 50%;
-        .title-wrapper {
-            margin-bottom: 30px;
-            h2 {
-                color: $blue-boolean;
-                font-size: 55px;
-                text-transform: uppercase;
-                &.jumbotron-first {
-                    font-weight: lighter;
-                }
-            }
-        }
-        h3 {
-            color: $blue-boolean;
-            margin-bottom: 20px;
-            font-size: 22px;
-        }
-        ul {
-            li{
-                color: $blue-boolean;
-                font-weight: lighter;
-                font-size: 20px;
-                margin-left: 20px;
-                span {
-                    font-weight: normal;
-                }
-            }
-        }
-    }
-    .jumbotron-right {
-        width: 50%;
+.jumbotron {
+    padding-top: 80px;
+    .jumbotron-wrapper {
+        height: 500px;
         display: flex;
-        justify-content: center;
-        img {
-            max-width: 90%;
+        align-items: center;
+        .jumbotron-left {
+            width: 50%;
+            .title-wrapper {
+                margin-bottom: 30px;
+                h2 {
+                    color: $blue-boolean;
+                    font-size: 55px;
+                    text-transform: uppercase;
+                    &.jumbotron-first {
+                        font-weight: lighter;
+                    }
+                }
+            }
+            h3 {
+                color: $blue-boolean;
+                margin-bottom: 20px;
+                font-size: 22px;
+            }
+            ul {
+                li{
+                    color: $blue-boolean;
+                    font-weight: lighter;
+                    font-size: 20px;
+                    margin-left: 20px;
+                    span {
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+        .jumbotron-right {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            img {
+                max-width: 90%;
+            }
         }
     }
 }

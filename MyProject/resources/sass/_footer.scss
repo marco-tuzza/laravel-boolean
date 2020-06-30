@@ -1,0 +1,72 @@
+footer {
+    background-color: $blue-boolean;
+    .container {
+        padding-top: 60px;
+        .footer-top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid white;
+            .footer-top-left{
+                display: flex;
+                flex-direction: column;
+                color: white;
+                margin-bottom: 10px;
+                img {
+                    width: 200px;
+                    margin-bottom: 5px;
+                }
+                span {
+                    font-size: 15px;
+                    line-height: 22px;
+                }
+            }
+            .footer-top-right{
+                ul {
+                    list-style: none;
+                    text-align: end;
+                    li {
+                        a {
+                            color: white;
+                            text-decoration: none;
+                            font-size: 20px;
+                            line-height: 30px;
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer-bottom{
+            .footer-bottom-top{
+                color: white;
+                display: flex;
+                justify-content: center;
+                ul {
+                    li{
+                        display: inline;
+                        i {
+                            font-size: 35px;
+                            margin: 30px 20px;
+                            &:hover {
+                                color: $green-boolean;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-bottom-bottom{
+                color: white; 
+                display: flex;
+                justify-content: center;
+                padding-bottom: 60px;
+                span {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
