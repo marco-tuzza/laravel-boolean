@@ -1,0 +1,11 @@
+.stats {
+    height: 200px;
+    width: 100%;
+    background-color: $blue-boolean;
+    .container{
+        display: flex;
+        .stats-wrapper {
+           color: white; 
+        }
+    }
+}

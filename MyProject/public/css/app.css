@@ -5,6 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  margin: 0px 13%;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -40,8 +44,9 @@ header .header-container .header-nav ul {
 header .header-container .header-nav ul li {
   display: inline;
   text-transform: uppercase;
-  padding: 10px 20px;
+  padding: 10px 30px;
   margin: 0px 10px;
+  font-size: 13px;
 }
 
 header .header-container .header-nav ul li:hover {
@@ -60,12 +65,78 @@ header .header-container .header-nav button {
   border-radius: 5px;
   text-transform: uppercase;
   height: 40px;
-  padding: 0px 20px;
-  margin-left: 20px;
+  padding: 0px 30px;
+  margin-left: 30px;
+  font-size: 16px;
 }
 
 header .header-container .header-nav button:hover {
   cursor: pointer;
   background-color: #73d462;
+}
+
+.jumbotron-wrapper {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron-wrapper .jumbotron-left {
+  width: 50%;
+}
+
+.jumbotron-wrapper .jumbotron-left .title-wrapper {
+  margin-bottom: 30px;
+}
+
+.jumbotron-wrapper .jumbotron-left .title-wrapper h2 {
+  color: #1b3c59;
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+.jumbotron-wrapper .jumbotron-left .title-wrapper h2.jumbotron-first {
+  font-weight: lighter;
+}
+
+.jumbotron-wrapper .jumbotron-left h3 {
+  color: #1b3c59;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.jumbotron-wrapper .jumbotron-left ul li {
+  color: #1b3c59;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.jumbotron-wrapper .jumbotron-left ul li span {
+  font-weight: normal;
+}
+
+.jumbotron-wrapper .jumbotron-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron-wrapper .jumbotron-right img {
+  max-width: 90%;
+}
+
+.stats {
+  height: 200px;
+  width: 100%;
+  background-color: #1b3c59;
+}
+
+.stats .container {
+  display: flex;
+}
+
+.stats .container .stats-wrapper {
+  color: white;
 }
 

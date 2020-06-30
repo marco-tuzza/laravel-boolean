@@ -26,8 +26,9 @@ header {
                 li {
                     display: inline;
                     text-transform: uppercase;
-                    padding: 10px 20px;
+                    padding: 10px 30px;
                     margin: 0px 10px;
+                    font-size: 13px;
                     &:hover {
                         border-bottom:2px solid #73d462; 
                         cursor: pointer;
@@ -43,8 +44,9 @@ header {
                 border-radius: 5px;
                 text-transform: uppercase;
                 height: 40px;
-                padding: 0px 20px;
-                margin-left: 20px;
+                padding: 0px 30px;
+                margin-left: 30px;
+                font-size: 16px;
                 &:hover {
                    cursor: pointer;
                    background-color: #73d462;

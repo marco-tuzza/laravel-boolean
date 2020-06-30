@@ -5,7 +5,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+$green-boolean: #61ce4e;
+$blue-boolean: #1b3c59;
+
 @mixin green-button{
-    background-color: #61ce4e;
+    background-color: $green-boolean;
     color: white;
+}
+
+.container {
+    margin: 0px 13%;
 }
