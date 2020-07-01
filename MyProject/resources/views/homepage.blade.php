@@ -1,4 +1,5 @@
 @extends("layouts.layout")
+@section('page-title', 'Il corso per diventare web developer e trovare un nuovo lavoro')
 @section('content')
     <section class="jumbotron">
         <div class="container">

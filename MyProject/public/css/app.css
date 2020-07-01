@@ -17,6 +17,7 @@ header {
   height: 90px;
   padding: 10px 0px;
   position: fixed;
+  z-index: 2;
 }
 
 header .header-container {
@@ -49,6 +50,12 @@ header .header-container .header-nav ul li {
   padding: 10px 30px;
   margin: 0px 10px;
   font-size: 13px;
+  color: #1b3c59;
+}
+
+header .header-container .header-nav ul li a {
+  text-decoration: none;
+  color: #1b3c59;
 }
 
 header .header-container .header-nav ul li:hover {
@@ -130,6 +137,61 @@ header .header-container .header-nav button:hover {
 
 .jumbotron .jumbotron-wrapper .jumbotron-right img {
   max-width: 90%;
+}
+
+.jumbotron-corso {
+  width: 100%;
+  height: 650px;
+  padding-top: 80px;
+}
+
+.jumbotron-corso .jumbotron-corso-background {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.boolean.careers/images/courses/jumbo.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron-corso .jumbotron-corso-background .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(27, 60, 89, 0.8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron-corso .jumbotron-corso-background .layer .container {
+  padding: 0px 200px;
+}
+
+.jumbotron-corso .jumbotron-corso-background .layer .container h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.jumbotron-corso .jumbotron-corso-background .layer .container h2:first-child {
+  font-weight: lighter;
+}
+
+.jumbotron-corso .jumbotron-corso-background .layer .container h2:nth-of-type(2) {
+  margin-bottom: 50px;
+}
+
+.jumbotron-corso .jumbotron-corso-background .layer .container p {
+  font-size: 22px;
+}
+
+.timetables {
+  height: 400px;
+  width: 100%;
+  background-color: #e8ebf1;
 }
 
 .stats {
