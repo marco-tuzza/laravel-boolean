@@ -328,6 +328,64 @@ header .header-container .header-nav button:hover {
   color: #1b3c59;
 }
 
+.faq .faq-content {
+  display: flex;
+}
+
+.faq .faq-content .faq-content-left {
+  width: 50%;
+  padding: 50px 80px;
+  background-color: #e8ebf1;
+  color: #1b3c59;
+}
+
+.faq .faq-content .faq-content-left h3 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.faq .faq-content .faq-content-left .faq-element {
+  padding: 20px 0px;
+}
+
+.faq .faq-content .faq-content-left .faq-element .faq-question h4 {
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.faq .faq-content .faq-content-left .faq-element .faq-answer p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.faq .faq-content .faq-content-right {
+  width: 50%;
+  padding: 50px 80px;
+  background-color: #1b3c59;
+  color: white;
+}
+
+.faq .faq-content .faq-content-right h3 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.faq .faq-content .faq-content-right .faq-element {
+  padding: 20px 0px;
+}
+
+.faq .faq-content .faq-content-right .faq-element .faq-question h4 {
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.faq .faq-content .faq-content-right .faq-element .faq-answer p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
 footer {
   background-color: #1b3c59;
 }
