@@ -342,16 +342,27 @@ header .header-container .header-nav button:hover {
 .faq .faq-content .faq-content-left h3 {
   font-size: 32px;
   font-weight: normal;
+  margin-bottom: 30px;
 }
 
 .faq .faq-content .faq-content-left .faq-element {
   padding: 20px 0px;
 }
 
+.faq .faq-content .faq-content-left .faq-element .faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .faq .faq-content .faq-content-left .faq-element .faq-question h4 {
   font-weight: normal;
   font-size: 24px;
   margin-bottom: 10px;
+}
+
+.faq .faq-content .faq-content-left .faq-element .faq-question i {
+  font-size: 25px;
 }
 
 .faq .faq-content .faq-content-left .faq-element .faq-answer {
@@ -373,16 +384,27 @@ header .header-container .header-nav button:hover {
 .faq .faq-content .faq-content-right h3 {
   font-size: 32px;
   font-weight: normal;
+  margin-bottom: 30px;
 }
 
 .faq .faq-content .faq-content-right .faq-element {
   padding: 20px 0px;
 }
 
+.faq .faq-content .faq-content-right .faq-element .faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .faq .faq-content .faq-content-right .faq-element .faq-question h4 {
   font-weight: normal;
   font-size: 24px;
   margin-bottom: 10px;
+}
+
+.faq .faq-content .faq-content-right .faq-element .faq-question i {
+  font-size: 25px;
 }
 
 .faq .faq-content .faq-content-right .faq-element .faq-answer {

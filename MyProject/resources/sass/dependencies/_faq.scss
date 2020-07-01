@@ -26,14 +26,21 @@
             h3{
                 font-size: 32px;
                 font-weight: normal;
+                margin-bottom: 30px;
             }
             .faq-element{
                 padding: 20px 0px;
                 .faq-question{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
                     h4 {
                         font-weight: normal;
                         font-size: 24px;
                         margin-bottom: 10px;
+                    }
+                    i {
+                        font-size: 25px;
                     }
                 }
                 .faq-answer {
@@ -53,14 +60,21 @@
             h3{
                 font-size: 32px;
                 font-weight: normal;
+                margin-bottom: 30px;
             }
             .faq-element{
                 padding: 20px 0px;
                 .faq-question{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
                     h4 {
                         font-weight: normal;
                         font-size: 24px;
                         margin-bottom: 10px;
+                    }
+                    i {
+                        font-size: 25px;
                     }
                 }
                 .faq-answer {
