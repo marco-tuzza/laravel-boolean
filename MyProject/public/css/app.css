@@ -304,6 +304,30 @@ header .header-container .header-nav button:hover {
   margin: 0px 40px;
 }
 
+.faq {
+  padding-top: 100px;
+}
+
+.faq .faq-intro {
+  color: #1b3c59;
+  padding: 60px 100px;
+}
+
+.faq .faq-intro h2 {
+  font-size: 44px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.faq .faq-intro h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.faq .faq-intro h3 a {
+  color: #1b3c59;
+}
+
 footer {
   background-color: #1b3c59;
 }

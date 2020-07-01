@@ -1,0 +1,19 @@
+.faq {
+    padding-top: 100px;
+    .faq-intro {
+        color: $blue-boolean;
+        padding: 60px 100px;
+        h2 {
+            font-size: 44px;
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+        h3 {
+            font-size: 18px;
+            font-weight: normal;
+            a {
+                color: $blue-boolean;
+            }
+        }
+    }
+}

@@ -10,7 +10,7 @@
             <div class="footer-top-right">
                 <ul>
                     <li><a href="">Lezione gratuita</a></li>
-                    <li><a href="">Domande frequenti</a></li>
+                    <li><a href="/faq">Domande frequenti</a></li>
                     <li><a href="">Privacy policy</a></li>
                     <li><a href="">Lavora con noi</a></li>               
                 </ul>
@@ -30,5 +30,4 @@
             </div>
         </div>
     </div>
-    
 </footer>
