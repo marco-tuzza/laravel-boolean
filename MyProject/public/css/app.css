@@ -192,6 +192,57 @@ header .header-container .header-nav button:hover {
   height: 400px;
   width: 100%;
   background-color: #e8ebf1;
+  padding: 60px 0px;
+}
+
+.timetables .container {
+  display: flex;
+}
+
+.timetables .container .timetables-left {
+  width: 50%;
+  color: #1b3c59;
+}
+
+.timetables .container .timetables-left h3 {
+  font-size: 45px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.timetables .container .timetables-left p {
+  font-size: 19px;
+  margin-bottom: 18px;
+  font-weight: lighter;
+}
+
+.timetables .container .timetables-left p span {
+  font-weight: normal;
+}
+
+.timetables .container .timetables-right {
+  padding: 30px 30px;
+}
+
+.timetables .container .timetables-right .timetables-schedule {
+  width: 500px;
+  padding: 10px 50px;
+  background-color: white;
+  box-shadow: 5px 7px 14px 2px #b0b0b0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.timetables .container .timetables-right .timetables-schedule img {
+  width: 40px;
+}
+
+.timetables .container .timetables-right .timetables-schedule span {
+  color: #1b3c59;
+  font-size: 22px;
+  margin-left: 50px;
 }
 
 .stats {
