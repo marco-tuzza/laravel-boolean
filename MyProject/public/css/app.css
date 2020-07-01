@@ -354,6 +354,10 @@ header .header-container .header-nav button:hover {
   margin-bottom: 10px;
 }
 
+.faq .faq-content .faq-content-left .faq-element .faq-answer {
+  display: none;
+}
+
 .faq .faq-content .faq-content-left .faq-element .faq-answer p {
   font-size: 18px;
   line-height: 30px;
@@ -379,6 +383,10 @@ header .header-container .header-nav button:hover {
   font-weight: normal;
   font-size: 24px;
   margin-bottom: 10px;
+}
+
+.faq .faq-content .faq-content-right .faq-element .faq-answer {
+  display: none;
 }
 
 .faq .faq-content .faq-content-right .faq-element .faq-answer p {
